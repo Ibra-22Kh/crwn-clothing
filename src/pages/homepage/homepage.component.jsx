@@ -5,9 +5,10 @@ import MenuItem from "../../components/menu-item/menu-item.components";
 
 import './homepage.styles.scss';
 
-export const HomePage = ()=>(
+ const HomePage = ()=>(
     <div className="homepage">
     <Directory/>
     </div>
     
 )
+export default HomePage;
